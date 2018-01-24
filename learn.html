@@ -2,12 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>新建</title>
+    <title>新建demo</title>
+    <style type="text/css">
+        input[type=text], textarea {
+            -webkit-transition: all 0.30s ease-in-out;
+            -moz-transition: all 0.30s ease-in-out;
+            -ms-transition: all 0.30s ease-in-out;
+            -o-transition: all 0.30s ease-in-out;
+            outline: none;
+            padding: 3px 0px 3px 3px;
+            margin: 5px 1px 3px 0px;
+            border: 1px solid #ddd;
+        }
+
+        input[type=text]:focus, textarea:focus {
+            box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+            padding: 3px 0px 3px 3px;
+            margin: 5px 1px 3px 0px;
+            border: 1px solid rgba(81, 203, 238, 1);
+        }
+
+        ul {
+            margin: 0.75em 0;
+            padding: 0 1em;
+            list-style: none;
+        }
+        li:before {
+            content: "";
+            border-color: transparent #111;
+            border-style: solid;
+            border-width: 0.35em 0 0.35em 0.45em;
+            display: block;
+            height: 0;
+            width: 0;
+            left: -1em;
+            top: 0.9em;
+            position: relative;
+        }
+
+    </style>
 </head>
 <body>
 <p>my name is tony</p>
 <div style="width: 100px;height: 200px;background-color: red">
     666
 </div>
+<input type="text">
+<hr>
+<ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+</ul>
 </body>
 </html>
